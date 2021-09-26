@@ -1,0 +1,47 @@
+! version = 2.0
+
++ hello
+- Hi, what is your name?
+
++ hi
+- Hi, what is your name?
+
++ my name is *
+- <set name=<star>>Nice to meet you <get name>. Would you like to know your admission chances?
+
++ *
+- sorry i didn't get you
+- sorry i don't understand
+
++ no
+- Goodbye
+
++ bye
+- Goodbye 
+
++ yes 
+- tell us about your gre score
+
++ [*]gre[*]
+- oh great ! tell us about your cgpa
+
++ [*]cgpa[*]
+- okay now tell us about your toefl score
+
++ [*]toefl[*]
+- have you done any research?
+
++ [*]research[*]
+- what is you sop rating?
+
++ [*]sop[*]
+- what is your lor rating?
+
++ [*]lor[*]
+- okay great ! now which rank university do you want ?
+
++ [*]rank[*]
+- would you like to find your admission chances?
+
++ yes find
+- would you like to start again?
